@@ -143,10 +143,3 @@ p {
   border: 2px solid #f0a500;
   margin-bottom: 10px;
 }
-/* NIELIT Ajmer Image Styling */
-.nielit-photo {
-  width: 100%;
-  max-width: 600px;
-  border-radius: 10px;
-  margin: 10px 0;
-}
