@@ -1,154 +1,161 @@
-
 /* Global Styles */
 #contacts {
-  background: #1f4068;
-  padding: 30px;
-  width: 90%;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
-body {
-  background-color:#0d85e0;
-  color: #e0e0f1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-/* Header */
-header {
-  background: linear-gradient(135deg, #1f4068, #1b1b2f);
-  width: 100%;
-  padding: 20px;
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo {
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-}
-
-.club-name {
-  font-size: 2rem;
-  color: #e94560;
-}
-
-/* Section Titles */
-h2 {
-  font-size: 1.8rem;
-  margin: 20px 0;
-  color: #f0a500;
-}
-
-/* Introduction Section */
-#introduction {
-  background: #162447;
-  padding: 30px;
-  width: 90%;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-/* Events Section */
-#events {
-  background: #1f4068;
-  padding: 30px;
-  width: 90%;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-.event-card {
-  background: #1b1b2f;
-  border: 1px solid #f0a500;
-  padding: 15px;
-  margin: 10px 0;
-  border-radius: 5px;
-}
-
-/* News Section */
-#news {
-  background: #162447;
-  padding: 30px;
-  width: 90%;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-.news-item {
-  background: #1b1b2f;
-  border: 1px solid #f0a500;
-  padding: 15px;
-  margin: 10px 0;
-  border-radius: 5px;
-}
-
-/* Footer */
-footer {
-  background: #1b1b2f;
-  padding: 20px;
-  width: 100%;
-  margin-top: 20px;
-}
-
-.contact h2 {
-  color: #e94560;
-}
-
-footer p {
-  margin: 5px 0;
-  color: #f0a500;
-}
-/* General Section Styling */
-section {
-  background-color: #162447;
-  color: #e0e0f1;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-h2 {
-  color: #f0a500;
-}
-
-p {
-  margin-top: 10px;
-  font-size: 1rem;
-}
-
-/* Heads Section Styling */
-#heads {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.head {
-  text-align: center;
-  width: 200px;
-}
-
-.head-photo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 2px solid #f0a500;
-  margin-bottom: 10px;
-}
+    background: #1f4068;
+    padding: 30px;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color:#0d85e0;
+    color: #e0e0f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(135deg, #1f4068, #1b1b2f);
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .club-name {
+    font-size: 2rem;
+    color: #e94560;
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: #f0a500;
+  }
+  
+  /* Introduction Section */
+  #introduction {
+    background: #162447;
+    padding: 30px;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Events Section */
+  #events {
+    background: #1f4068;
+    padding: 30px;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .event-card {
+    background: #1b1b2f;
+    border: 1px solid #f0a500;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  /* News Section */
+  #news {
+    background: #162447;
+    padding: 30px;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .news-item {
+    background: #1b1b2f;
+    border: 1px solid #f0a500;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #1b1b2f;
+    padding: 20px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .contact h2 {
+    color: #e94560;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    color: #f0a500;
+  }
+  /* General Section Styling */
+  section {
+    background-color: #162447;
+    color: #e0e0f1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #f0a500;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Heads Section Styling */
+  #heads {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  #heads1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  .head {
+    text-align: center;
+    width: 200px;
+  }
+  
+  .head-photo {
+    width: 120px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid #f0a500;
+    margin-bottom: 10px;
+  }
